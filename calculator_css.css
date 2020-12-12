@@ -1,0 +1,69 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+    background-image: url("wal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ .head{
+   text-align: center;
+   font-family: myfont;
+   padding: 20px;
+   margin-bottom: 20px;
+   background-color: rgb(76, 235, 142);
+ } 
+  @font-face {
+    font-family: myfont;
+    src: url("font.ttf");
+  }
+  #cal{
+     border:1px solid black;
+     display:inline-block;
+     padding:10px 8px 10px 10px;
+     border-radius:10px;
+     background-image: url("bb.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin-bottom: 100px;
+     margin-top: 50px;
+  }
+  
+  #in{
+    height:45px;
+    width:257px;
+    font-size:30px;
+    outline:none;
+    background-color:#808e9b;
+    color:white;
+    margin-bottom:-10px;
+    border:1px solid black;
+    border-radius:5px;
+    /* font-family: myfont; */
+  }
+  
+  button{
+     height: 53px;
+     width: 65px;
+     background-color:#485460;
+     outline:none;
+     /* font-family: myfont; */
+     border-left:none;
+     border-right:1px solid black;
+     border-top:none;
+     border-bottom:1px solid black;
+     color:white;
+     border-radius:10px;
+     font-size: 20px;
+   }
+   
+   button:active{
+    background-color:#57606f;
+    }
+    footer{
+      background-color: #57606f;
+      text-align: center;
+      padding: 20px;
+    }
