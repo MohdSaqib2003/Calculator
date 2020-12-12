@@ -16,6 +16,7 @@ function back(){
 
 
 
+
 function b1(){
   input.value=input.value+Number("1");
 }
